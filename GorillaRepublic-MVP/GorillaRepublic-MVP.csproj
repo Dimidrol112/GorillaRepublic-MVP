@@ -171,6 +171,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\bootstrap-responsive.css" />
+    <Content Include="Content\bootstrap-responsive.min.css" />
+    <Content Include="Content\bootstrap-toggle-buttons.css" />
+    <Content Include="Content\bootstrap.css" />
+    <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\infogrid.css" />
+    <Content Include="Content\main-responsive.css" />
+    <Content Include="Content\main.css" />
+    <Content Include="Content\mobiscroll-2.1.custom.min.css" />
+    <Content Include="Content\modal-gloss.png" />
+    <Content Include="Content\reveal.css" />
+    <Content Include="Content\ribbon.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
     <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
@@ -225,8 +237,49 @@
     <Content Include="Content\themes\base\minified\jquery.ui.slider.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.tabs.min.css" />
     <Content Include="Content\themes\base\minified\jquery.ui.theme.min.css" />
+    <Content Include="Content\wowSlider.css" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Images\aboutme_116x32.png" />
+    <Content Include="Images\ab_aboutme.jpg" />
+    <Content Include="Images\ab_courses.jpg" />
+    <Content Include="Images\ab_interests.jpg" />
+    <Content Include="Images\ab_skills.jpg" />
+    <Content Include="Images\ab_workhistory.jpg" />
+    <Content Include="Images\arrows.png" />
+    <Content Include="Images\background.png" />
+    <Content Include="Images\bg.png" />
+    <Content Include="Images\btn_liprofile_blue_80x15.png" />
+    <Content Include="Images\contact-icon.jpg" />
+    <Content Include="Images\contact_tab.gif" />
+    <Content Include="Images\dropdown-aboutme.png" />
+    <Content Include="Images\dropdown-email.png" />
+    <Content Include="Images\dropdown-linkedin.png" />
+    <Content Include="Images\dropdown-so.png" />
+    <Content Include="Images\dropdown-twitter.png" />
+    <Content Include="Images\feedback_top_tab.gif" />
+    <Content Include="Images\glyphicons-halflings-white.png" />
+    <Content Include="Images\glyphicons-halflings.png" />
+    <Content Include="Images\gorilla.png" />
+    <Content Include="Images\linkedin.png" />
+    <Content Include="Images\superman.jpg" />
+    <Content Include="Images\sw_admincentre.jpg" />
+    <Content Include="Images\sw_archivereport.jpg" />
+    <Content Include="Images\sw_archivetool.jpg" />
+    <Content Include="Images\sw_bbc.jpg" />
+    <Content Include="Images\sw_dataviewers.jpg" />
+    <Content Include="Images\sw_equitytradingpip.jpg" />
+    <Content Include="Images\sw_gwt.jpg" />
+    <Content Include="Images\sw_teamexcellence.jpg" />
+    <Content Include="Images\sw_t_admincentre.jpg" />
+    <Content Include="Images\sw_t_archivereport.jpg" />
+    <Content Include="Images\sw_t_archivetool.jpg" />
+    <Content Include="Images\sw_t_bbc.jpg" />
+    <Content Include="Images\sw_t_dataviewers.jpg" />
+    <Content Include="Images\sw_t_equitytradingpip.jpg" />
+    <Content Include="Images\sw_t_gwt.jpg" />
+    <Content Include="Images\sw_t_teamexcellence.jpg" />
+    <Content Include="Images\triangle.png" />
     <Content Include="Scripts\jquery-1.7.1-vsdoc.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
@@ -250,7 +303,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Content\Site.css" />
-    <Content Include="Scripts\_references.js" />
+    <Content Include="Scripts\_refere1nces.js" />
     <Content Include="Images\accent.png" />
     <Content Include="Images\bullet.png" />
     <Content Include="Images\heroAccent.png" />
@@ -287,6 +340,10 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Download\myCV.docx" />
+    <None Include="Images\loginbackground.xcf" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
