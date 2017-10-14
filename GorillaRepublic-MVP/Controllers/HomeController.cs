@@ -11,7 +11,8 @@ namespace GorillaRepublic_MVP.Controllers
         public ActionResult Index()
         {
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
-
+            MyData.data++;
+            ViewBag.datat = MyData.data;
             return View();
         }
 
@@ -28,5 +29,9 @@ namespace GorillaRepublic_MVP.Controllers
 
             return View();
         }
+    }
+    public static class MyData
+    {
+        public static int data = 0;
     }
 }
