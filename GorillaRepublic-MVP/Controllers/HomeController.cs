@@ -8,9 +8,11 @@ namespace GorillaRepublic_MVP.Controllers
 {
     public class HomeController : Controller
     {
+        public int test = 0;
         public ActionResult Index()
         {
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application.";
+            test++;
+            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application." + test;
 
             return View();
         }
