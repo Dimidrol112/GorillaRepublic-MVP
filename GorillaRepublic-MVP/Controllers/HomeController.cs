@@ -38,7 +38,7 @@ namespace GorillaRepublic_MVP.Controllers
         public static int food = 0;
         public static int peoples = 0;
         public static Thread th = null;
-
+        public static Random rnd = new Random();
         public static void Process()
         {
             if (th == null)
@@ -52,8 +52,8 @@ namespace GorillaRepublic_MVP.Controllers
         {
             while (true)
             {
-                food += 5;
-                peoples++;
+                food += rnd.Next(0,5);
+                peoples += rnd.Next(0, 2);
                 Thread.Sleep(1000);
             }
         }
