@@ -13,7 +13,7 @@ namespace GorillaRepublic_MVP.Controllers
         public ActionResult Index()
         {
             MyData.Process();
-            ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application." + MyData.data;
+            ViewBag.Message = "food:" + MyData.food + "| people:" + MyData.peoples;
 
             return View();
         }
@@ -35,7 +35,8 @@ namespace GorillaRepublic_MVP.Controllers
 
     public static class MyData
     {
-        public static int data = 0;
+        public static int food = 0;
+        public static int peoples = 0;
         public static Thread th = null;
 
         public static void Process()
@@ -51,8 +52,9 @@ namespace GorillaRepublic_MVP.Controllers
         {
             while (true)
             {
-                data++;
-                Thread.Sleep(100);
+                food += 5;
+                peoples++;
+                Thread.Sleep(1000);
             }
         }
     }
