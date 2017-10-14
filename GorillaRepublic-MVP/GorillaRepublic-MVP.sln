@@ -7,21 +7,20 @@ Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "GorillaRepublic-MVP", ".", 
 	ProjectSection(WebsiteProperties) = preProject
 		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
 		Debug.AspNetCompiler.VirtualPath = "/localhost_23576"
-		Debug.AspNetCompiler.PhysicalPath = "..\GorillaRepublic-MVP\"
+		Debug.AspNetCompiler.PhysicalPath = "D:\webProjects\mvp\GorillaRepublic-MVP\"
 		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23576\"
 		Debug.AspNetCompiler.Updateable = "true"
 		Debug.AspNetCompiler.ForceOverwrite = "true"
 		Debug.AspNetCompiler.FixedNames = "false"
 		Debug.AspNetCompiler.Debug = "True"
 		Release.AspNetCompiler.VirtualPath = "/localhost_23576"
-		Release.AspNetCompiler.PhysicalPath = "..\GorillaRepublic-MVP\"
+		Release.AspNetCompiler.PhysicalPath = "D:\webProjects\mvp\GorillaRepublic-MVP\"
 		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_23576\"
 		Release.AspNetCompiler.Updateable = "true"
 		Release.AspNetCompiler.ForceOverwrite = "true"
 		Release.AspNetCompiler.FixedNames = "false"
 		Release.AspNetCompiler.Debug = "False"
 		VWDPort = "23576"
-		SlnRelativePath = "..\GorillaRepublic-MVP\"
 	EndProjectSection
 EndProject
 Global
