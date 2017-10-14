@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Threading;
 
 namespace GorillaRepublic_MVP.Controllers
 {
@@ -11,7 +12,7 @@ namespace GorillaRepublic_MVP.Controllers
         public int test = 0;
         public ActionResult Index()
         {
-            MyData.data++;
+            MyData.Process();
             ViewBag.Message = "Modify this template to jump-start your ASP.NET MVC application." + MyData.data;
 
             return View();
@@ -35,5 +36,24 @@ namespace GorillaRepublic_MVP.Controllers
     public static class MyData
     {
         public static int data = 0;
+        public static Thread th = null;
+
+        public static void Process()
+        {
+            if (th == null)
+            {
+                var th = new Thread(Game);
+                th.Start();
+            }
+        }
+
+        public static void Game()
+        {
+            while (true)
+            {
+                data++;
+                Thread.Sleep(100);
+            }
+        }
     }
 }
